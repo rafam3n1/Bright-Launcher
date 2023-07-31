@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Loading</title>
+    <style>
+        body {
+            background-color: #0c0324;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.6/lottie.min.js"></script>
+</head>
+<body>
+    <div id="lottie"></div>
+    <script>
+        var animation = lottie.loadAnimation({
+            container: document.getElementById('lottie'), // the dom element that will contain the animation
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'https://lottie.host/7204dbd3-0868-479c-8e3a-e3694296dc44/35f9o6vEVj.json' // the path to the animation json
+        });
+    </script>
+</body>
+</html>
